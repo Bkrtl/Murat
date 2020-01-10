@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytrack Smoke Suite">
+    <test name="Smoke test">
+        <packages>
+            <package name="com.savas.tests.day16_review"></package>
+            <package name="com.savas.tests.day15_pom_tests"></package>
+        </packages>
+        <classes>
+            <class name="com.savas.tests.day14_pom_tests.PositiveLoginTests"></class>
+            <class name="com.savas.tests.day14_pom_tests.NegativeLoginTests"></class>
+        </classes>
+    </test>
+
+</suite>

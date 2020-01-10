@@ -52,6 +52,9 @@ public class VerifyConfirmationMessage {
             System.out.println("expectedMessage = " + expectedMessage);
         }
 
+        WebElement confirmationMessage=driver.findElement(By.name("confirmation_message"));
+        String actualConMessage= confirmationMessage.getText();
+
 
         Thread.sleep(3000);
         driver.quit();
